@@ -1,0 +1,57 @@
+@media (min-width:375px) and (max-width:424px) {
+
+    .container{
+        background: url(../image/bg-mobile.svg) no-repeat;
+        background-color:  hsl(257, 40%, 49%);
+    }
+
+    .header img{
+        width: 200px;
+
+    }
+
+    .mockups img{
+        width: 200px;
+        margin: 0 5%;    
+    }
+
+    .hero{
+        display: grid;
+        
+    }
+
+    .description{
+        width: 350px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20%;
+        
+    }
+    .informations{
+        font-size: 15px;
+    }
+
+
+    .footer{
+        padding-top:  25%;
+
+    }
+}
+
+
+
+@media (min-width:1440px) {
+    .header img{
+        width: 200px;
+    }
+
+    .mockups img{
+        width: 450px;
+         
+    }
+
+    .informations{
+        font-size: 15px;
+    }
+
+}
